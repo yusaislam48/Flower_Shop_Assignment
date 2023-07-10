@@ -120,3 +120,95 @@ font-style: normal;
 font-weight: 400;
 line-height: 30px;
  }
+
+ /* deal section  */
+ .deal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .deal-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1480px;
+    height: 449px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background-image: url(/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+ }
+ .deal-sec-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+ }
+ .deal-sec-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+ }
+ .deal-sec-subtitle{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+ }
+ .deal-sec-form{
+    width: 700px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: none;
+    background: #FFF;
+    margin-right: 10px;
+    text-align: left;
+ }
+ 
+ /* footer section  */
+ footer{
+    margin-top: 100px;
+    padding-top: 100px ;
+    padding-bottom: 100px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #111010;
+ }
+ .footer-heading{
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+ }
+ .footer-heading-color{
+    color: #FFF;
+ }
+ .footer-paragraph{
+    color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+ }
+ .footer-copyright{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+ }
