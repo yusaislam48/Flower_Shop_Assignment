@@ -1,0 +1,55 @@
+/* common shared styles */
+body{
+    font-family: 'lato' , sans-serif;
+}
+
+/* header section  */
+header{
+    background: rgba(229, 84, 115, 0.10);
+    margin: 0px;
+    display: flex;
+    /* padding: 30px 30px 0px 150px; */
+}
+.header-title{
+    color: #272727;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+}
+.header-paragraph{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.primary-button{
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner .profile-picture{
+    width: 584px;
+    height: 676px;
+    flex-shrink: 0;
+}
+.banner-content{
+    max-width: 665px;
+}
+.banner-image{
+    padding-left: 300px;
+}
