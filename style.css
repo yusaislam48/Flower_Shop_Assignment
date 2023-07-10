@@ -153,6 +153,9 @@ line-height: 30px;
     font-style: normal;
     font-weight: 800;
  }
+ .hot-deal-title-color{
+    color: #E55473;
+ }
  .deal-sec-subtitle{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
@@ -269,4 +272,47 @@ font-style: normal;
 font-weight: 700;
 line-height: 35px;
 text-decoration-line: underline;
+}
+
+/* stactis section  */
+.stactis{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.statics-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgba(39, 39, 39, 0.05);
+    
+}
+.statics-title{
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    color: #E55473;
+}
+.counter-header{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.counter-paragraph{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
 }
