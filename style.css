@@ -53,3 +53,70 @@ header{
 .banner-image{
     padding-left: 300px;
 }
+
+
+/* hot deal section  */
+.hot-deal{
+    background: rgba(229, 84, 115, 0.05);
+    
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.hot-deal-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.hot-deal-title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.hot-deal-section1{
+    text-align: center;
+}
+.hot-deal-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* instagram section */
+.instagram-section{
+    align-items: center;
+}
+.instagram-img-sec{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.instagram-title{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+ }
+ .instagram-paragraph{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+ }
